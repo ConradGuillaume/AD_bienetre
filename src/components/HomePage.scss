@@ -16,6 +16,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   h1 {
     color: $silver;
     margin: 0;
@@ -35,8 +36,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background: $color-2;
-  clip-path: ellipse(180% 70% at 49% 73%);
+  background: $color-1;
+
 
   .select-container {
     position: relative;
@@ -46,21 +47,22 @@ main {
     align-items: center;
     .line {
       position: absolute;
-      height: 2px;
+      height: 2.5px;
       width: 100%;
-      background: $color-1;
+      border: 0.1px solid black;
+      background: $copper;
       z-index: 0;
     }
     .select {
-      color: $silver;
+      color: $color-1;
       width: 60%;
       text-align: center;
       padding: 5%;
-      background: $color-1;
+      background: $color-2;
       border-radius: 15px;
       border: 2.5px solid $copper;
       z-index: 5;
-      font-size: 17px;
+      font-size: 18px;
       text-transform: uppercase;
       text-decoration: none;
       font-weight: 900;
@@ -70,15 +72,15 @@ main {
 }
 
 footer {
-  clip-path: ellipse(150% 70% at 49% 73%);
   position: relative;
-  height: 17.5vh;
-  margin-top: -5%;
+  height: 15vh;
   background: $color-1;
-  z-index: 6;
+  // z-index: 6;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+
   button {
     height: 60px;
     width: 60px;
