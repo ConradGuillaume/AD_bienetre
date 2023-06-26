@@ -2,7 +2,9 @@
   <div class="Home">
     <header>
       <h1>AD BIEN-ETRE</h1>
-      <img class="logo" src="../Style/img/AD_sansnom.png" alt="Logo" />
+      <div class="imgcontain">
+        <img class="logo" src="../Style/img/AD_sansnom.png" alt="Logo" />
+      </div>
     </header>
     <main>
       <div class="select-container">
@@ -12,12 +14,12 @@
       <div class="select-container">
         <div class="line"></div>
         <router-link class="select" to="/pageTwo"
-          >Soins Energétiques</router-link
+          >Soins énergétiques</router-link
         >
       </div>
       <div class="select-container">
         <div class="line"></div>
-        <router-link class="select" to="/pageFour">Epilation</router-link>
+        <router-link class="select" to="/pageFour">épilations</router-link>
       </div>
       <div class="select-container">
         <div class="line"></div>
