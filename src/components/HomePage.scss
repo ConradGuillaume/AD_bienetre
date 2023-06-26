@@ -5,17 +5,19 @@
   width: 100%;
   margin: 0;
   position: fixed;
-  background: $color-1;
+  background: $color-4;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 header {
+  position: relative;
   background: $color-1;
-  height: 25vh;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 5;
 
   h1 {
     color: $silver;
@@ -31,13 +33,12 @@ header {
 }
 
 main {
-  height: 60vh;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   background: $color-1;
-
 
   .select-container {
     position: relative;
@@ -52,6 +53,7 @@ main {
       border: 0.1px solid black;
       background: $copper;
       z-index: 0;
+      box-shadow: 0px 6px 10px black;
     }
     .select {
       color: $color-1;
@@ -67,19 +69,19 @@ main {
       text-decoration: none;
       font-weight: 900;
       font-family: $font-1;
+      box-shadow: 0px 6px 10px black;
     }
   }
 }
 
 footer {
   position: relative;
-  height: 15vh;
+  height: 15%;
   background: $color-1;
   // z-index: 6;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 
   button {
     height: 60px;
@@ -117,3 +119,4 @@ footer {
     filter: drop-shadow(2px 2px 3px black);
   }
 }
+
